@@ -1,0 +1,24 @@
+// main.scss
+
+// Importa las variables
+@import 'variables';
+
+// Importa mixins
+@import 'mixins';
+
+// Importa estilos base
+@import 'base';
+
+// Importa componentes
+@import 'components';
+
+// Importa estilos de layout
+@import 'layouts';
+
+// Estilos globales
+body {
+    font-family: $font-stack;
+    background-color: #f8f9fa;
+    color: blue;
+    font-size: rem(25px); // Usando la función rem definida en _variables.scss
+}

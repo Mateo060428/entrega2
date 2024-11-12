@@ -1,0 +1,21 @@
+// _components.scss
+
+.btn-primary {
+    background-color: $primary-color;
+    border: none;
+    padding: 0.5rem 1.5rem;
+    @include transition(background-color);
+
+    &:hover {
+        background-color: darken($primary-color, 10%);
+    }
+}
+
+.card {
+    border: none;
+    transition: transform 0.3s ease;
+
+    &:hover {
+        transform: translateY(-5px);
+    }
+}

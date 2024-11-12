@@ -7,7 +7,7 @@ body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
     background-color: #f8f9fa;
-    width: 1310px;
+    
 }
 .navbar {
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
@@ -177,3 +177,4 @@ body{
 
     font-size: 25px;
 }
+
